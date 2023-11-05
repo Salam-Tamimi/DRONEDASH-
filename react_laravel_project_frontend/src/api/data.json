@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "proImg": "/product/1.jpg",
+    "title": "Deluxe Contrast Room",
+    "price": "200",
+    "delPrice": "380",
+    "sqm":"52",
+    "bedroom":"2",
+    "bathroom":"1",
+    "capacity":"2",
+    "Children":"6"
+  },
+  {
+    "id": 2,
+    "proImg": "/product/2.jpg",
+    "title": "Luxery Twin Room",
+    "price": "250",
+    "delPrice": "380",
+    "sqm":"70",
+    "bedroom":"2",
+    "bathroom":"1",
+    "capacity":"2",
+    "Children":"3"
+  },
+  {
+    "id": 3,
+    "proImg": "/product/3.jpg",
+    "title": "Single Contrast Room",
+    "price": "230",
+    "sqm":"82",
+    "bedroom":"2",
+    "bathroom":"1",
+    "delPrice": "380",
+    "capacity":"3",
+    "Children":"5"
+  },
+  {
+    "id": 4,
+    "proImg": "/product/4.jpg",
+    "title": "Queen Room Balcony",
+    "price": "280",
+    "sqm":"45",
+    "bedroom":"2",
+    "bathroom":"1",
+    "delPrice": "380",
+    "capacity":"3",
+    "Children":"2"
+  },
+  {
+    "id": 5,
+    "proImg": "/product/5.jpg",
+    "title": "Apartment Balcony",
+    "price": "260",
+    "sqm":"55",
+    "bedroom":"2",
+    "bathroom":"1",
+    "delPrice": "280",
+    "capacity":"2",
+    "Children":"6"
+  },
+  {
+    "id": 6,
+    "proImg": "/product/6.jpg",
+    "title": "Deluxe Contrast Room",
+    "price": "200",
+    "sqm":"85",
+    "bedroom":"2",
+    "bathroom":"1",
+    "delPrice": "380",
+    "capacity":"2",
+    "Children":"6"
+  }
+]

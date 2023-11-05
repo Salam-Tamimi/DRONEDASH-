@@ -1,0 +1,169 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Theme Name:     Parador – Hotel Booking HTML5 Template
+Version:        1.0.0
+-------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+1. General
+	1.1 Theme Reset Style
+	1.2 Global Elements
+
+2. header
+	2.1 topbar
+	2.2 navigation
+
+3. content
+	3.1 wpo-hero-slider
+	3.2 wpo-select-section
+	3.3 wpo-about-section
+	3.4 wpo-destination-area
+	3.5 wpo-fun-fact-section
+	3.6 wpo-room-area
+	3.7 wpo-service-area
+	3.8 wpo-pricing-section
+	3.9 wpo-testimonial-area
+	3.10 wpo-blog-section
+	3.11 wpo-newslatter-section
+
+4. wpo-footer
+
+5. Home-style-2
+   5.1 wpo-about-section-s2
+   5.2 wpo-fun-fact-section-s2
+   5.3 wpo-service-area-s2
+
+6. Home-style-3
+   6.1 wpo-select-section-s2
+   6.2 wpo-about-section-s3
+   6.3 wpo-destination-area-s2
+   6.4 wpo-room-area-s2
+
+
+7.0 Room-single-pages
+
+8. service single page
+
+9. wpo-destination-single-section
+
+10. wpo-cart-page-style
+
+11. wpo-checkout-page-style
+
+12. wpo-shop-page
+
+13. wpo-shop-single-page
+
+14. wpo-pricing-page
+
+15. wpo-faq-page
+
+16. wpo-blog-pg-section
+
+17. wpo-blog-single-section
+
+18. wpo-contact-pg-section
+
+19. error-404-section
+
+----------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+1. General
+----------------------------------------------------------------*/
+
+// helpers
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// base
+@import "base/base";
+
+// components
+@import "components/section-title";
+@import "components/buttons";
+@import "components/form";
+@import "components/social-links";
+@import "components/page-title";
+@import "components/preloader";
+@import "components/blog-sidebar";
+@import "components/pagination";
+
+// layout
+@import "layout/header";
+@import "layout/hero-slider";
+@import "layout/footer";
+
+// components
+@import "components/sticky-header";
+
+// page
+@import "page/home-default";
+
+@import "page/_home-style2";
+
+@import "page/_home-style3";
+
+@import "page/_room-single";
+
+@import "page/_service";
+
+@import "page/_destination-single";
+
+@import "page/_cart";
+
+@import "page/_checkout";
+
+@import "page/_shop";
+
+@import "page/_shop-single";
+
+@import "page/_pricing";
+
+@import "page/faq";
+
+@import "page/_blog";
+
+@import "page/_blog-single";
+
+@import "page/_contact";
+
+@import "page/_error-404";
+
+// .form-field2 {
+//   background: transparent;
+//   width: 100%;
+//   height: 50px;
+//   border: 1px solid transparent;
+//   border-radius: 0px;
+//   box-shadow: none !important;
+//   padding-left: 25px;
+//   border: 1px solid #ebebeb;
+// }
+form input {
+  background: white;
+  width: 50%;
+  height: 50px;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  box-shadow: none !important;
+  padding-left: 25px;
+  border: 1px solid #ebebeb;
+
+  @include media-query(991px) {
+    height: 45px;
+  }
+
+  &:focus {
+    border-color: $theme-primary-color;
+    background: transparent;
+  }
+}
+
+form label {
+  color: black;
+}
